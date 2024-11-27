@@ -10,7 +10,7 @@ const dotenv = require ('dotenv/config')
 
 
 app.use(express.json()) 
-app.use(express.static('./public'));//ejecutar directamente el front cuando corremos el servidor
+app.use(express.static('./public'));
 app.use(cors());
 
 
